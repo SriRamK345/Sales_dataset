@@ -1,6 +1,6 @@
-### **Sales ForeCasting and Predection**
+## **Sales ForeCasting and Predection**
 
-## **Features**
+### **Features**
 
 Contains additional data related to the store, department, and regional activity for the given dates.
 -	Store - the store number
@@ -16,7 +16,7 @@ Contains additional data related to the store, department, and regional activity
     - Features
     - Sales
 
-**Key Technologies and Skills**
+### **Key Technologies and Skills**
 
 - Python
 - Scikit-Learn
@@ -26,7 +26,7 @@ Contains additional data related to the store, department, and regional activity
 - Seaborn
 - Streamlit
 
-**Data Preprocessing:**
+### **Data Preprocessing:**
 
 **Data Understanding:** The dataset comprises store, sales, and features data, offering details on store attributes like name, department, date, type, size, weekly sales, and environmental factors such as holiday status, temperature, fuel price, multiple markdowns, CPI, and unemployment. The primary focus is on predicting weekly sales, serving as the target variable for our modeling endeavors. This initial exploration forms the basis for subsequent data preprocessing and model development.
 
@@ -39,11 +39,11 @@ Contains additional data related to the store, department, and regional activity
 ## Machine Learning Regression Model:
 
 **Multiple Models:** I built and evaluated five machine learning models to predict sales, and their respective train and test scores are as follows:
-## Linear Regression: Train Score = 0.105597, Test Score = 0.103934
-## Decision Tree: Train Score = 0.517049, Test Score = 0.513199
-## Random Forest Regression: Train Score = 0.995533, Test Score = 0.968403
-## XGBoost Regression: Train Score = 0.913102, Test Score = 0.911439
-## ExtraTrees Regressor: Train Score = 1.000000, Test Score = 0.970189
+- **Linear Regression:** Train Score = 0.105597, Test Score = 0.103934
+- **Decision Tree:** Train Score = 0.517049, Test Score = 0.513199
+- **Random Forest Regression:** Train Score = 0.995533, Test Score = 0.968403
+- **XGBoost Regression:** Train Score = 0.913102, Test Score = 0.911439
+- **ExtraTrees Regressor:** Train Score = 1.000000, Test Score = 0.970189
 
 **Conclusion:** 
 The ExtraTreesRegressor (ET_model) performs slightly better overall based on the evaluation metrics provided. It has a marginally higher R² score and lower values for MAE, MSE, and RMSE compared to the RandomForestRegressor (RF_model). Therefore, ET_model is the preferred model among the two based on these performance metrics.
